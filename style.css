@@ -1,0 +1,623 @@
+body{
+    margin: 0;
+}
+.head{
+    display: flex;
+    background-color: #000000;
+    height: 40px;
+}
+.head p{
+    color: white;
+}
+.shop {
+    height: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.percent{
+    height: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.hblock{
+    display: flex;
+    width: 372px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.hblock h1{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 15px;
+    vertical-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+}
+.arrow_btn{
+    margin: auto 0;
+    width: 91px;
+    display: flex;
+    border-style: solid;
+    border-color: #FFAB00;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+.arrow_btn img{
+    width: 18px;
+    height: 18px;
+    margin: auto 0;
+    padding: 0 0 0 4px;
+}
+.arrow_btn h4{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFAB00;
+    margin: 0;
+}
+.slogan{
+    height: 14px;
+    width: 233px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.cblock{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 6px;
+}
+.main_picture {
+    position: relative;
+}
+.main_picture img{
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    height: 60px;
+}
+.main_picture h1{
+    font-family: "Poppins", sans-serif; 
+    font-weight: normal;
+    margin: auto 0 auto 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 364px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+li{
+    display: inline;
+}
+li a{
+    font-family: "Space Grotesk", sans-serif;
+    color: black;
+    text-decoration: none;
+}
+ul div img{
+    max-width: 9px;
+    height: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.iconbar{
+    margin: auto 0 auto 0;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.iconbar img{
+    width: 24px;
+    height: 24px;
+}
+.advertisement{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+}
+.advertisement h1{
+    font-size: 70px;
+}
+.advertisement h1 span{
+    color: #377DFF;
+}
+.advertisement p{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+}
+.advertisement button{
+    background-color: black;
+    color: white;
+    width: 234px;
+    height: 56px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.partners{
+    display: flex;
+    justify-content: space-around;
+    height: 144px;
+}
+.partners img {
+    margin: auto 0 auto 0;
+}
+.new_products_title{
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 48px auto 48px auto;
+}
+.new_products_title h1{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+.new_products_title .more {
+    height: 16px;
+    margin: auto 0 auto 0;
+    display: flex;
+    justify-content: space-between;
+    width: 64px;
+}
+.square{
+    height: 16px;
+}
+.dot{
+    margin: auto 0 auto 0;
+}
+.list_of_products{
+    display: flex;
+    width: 1120px;
+    justify-content: space-between;
+    margin: 48px auto;
+}
+.item{
+    position: relative;
+}
+.item .headphones{
+    position: inherit;
+    width: 262px;
+    height: 349px;
+}
+.list_of_products .item .NEW{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    width: 67px;
+    height: 24px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.list_of_products .item .NEW h5{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    height: auto;
+}
+.list_of_products .item .heart{
+    position: absolute;
+    top: 16px;
+    left: 214px;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list_of_products .item .heart img{
+    margin: auto;
+}
+.list_of_products .item button{
+    position: absolute;
+    width: 230px;
+    height: 46px;
+    top: 287px;
+    left: 16px;
+    color: white;
+    background-color: #141718;
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    border-color: #141718;
+}
+.product{
+    width: 262px;
+}
+.expression{
+    font-family: "Inter", sans-serif;
+    color: #141718;
+}
+.expression p{
+    margin: 4px 0 0 0;
+    height: 52px;
+}
+.expression h5{
+    margin: 0;
+    height: 26px;
+}
+.collection{
+    width: 1120px;
+    margin: 0 auto;
+}
+.collection h1{
+    font-family: "Inter", sans-serif;
+    color: #141718;
+    margin: 48px 0;
+}
+.collection div{
+    display: inline-block;
+}
+.headband{
+    position: relative;
+}
+.collection_expression{
+    position: absolute;
+    top: 538px;
+    left: 48px;
+}
+.collection_expression h2{
+    font-family: "Inter", sans-serif;
+}
+.collection_expression h4{
+    font-family: "Inter", sans-serif;
+    display: inline-block;
+    margin: 0;
+    border-style: solid;
+    width: 98px;
+    border-color: #141718;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+    position: absolute;
+}
+.collection_expression img{
+    position: relative;
+    left: 80px;
+}
+.other_two{
+    display: block;
+    width: 548px;
+    height: 664px;
+    margin: 0 0 auto 0;
+    align-content: start;
+}
+.other_two div{
+    position: relative;
+}
+.small_headphones{
+    margin-bottom: 22px;
+}
+.other_two div h2{
+    position: absolute;
+    top: 201px;
+    left: 32px;
+}
+.other_two div .arrow_button{
+    position: absolute;
+    top: 251px;
+    left: 32px;
+}
+.other_two div h4{
+    font-family: "Inter", sans-serif;
+    display: inline-block;
+    margin: 0;
+    border-style: solid;
+    border-color: #141718;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+    position: absolute;
+    width: 98px;
+}
+.arrow_button img{
+    position: absolute;
+    left: 80px;
+}
+.best_sellers h1{
+    font-family: "Inter", sans-serif;
+    color: #141718;
+    width: 1120px;
+    margin: 48px auto;
+}
+.discount_block{
+    display: flex;
+    background-color: #ffce8b;
+    font-family: "Inter", sans-serif;
+}
+.promotion{
+    margin: 101px 0 0 72px;
+}
+.promotion h3{
+    color: #377DFF;
+}
+.promotion h4{
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 20px;
+}
+.clock{
+    display: flex;
+    width: 288px;
+}
+.deadline{
+    margin: 24px 0 0 72px;
+}
+.discount_block div h5{
+    margin: 24px 0 0 72px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.time{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #FEFEFE;
+}
+.time div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.time div h2{
+    margin: 11px 10px;
+    padding: 0;
+    font-size: 34px;
+}
+.time div h5{
+    margin: 0;
+    padding: 0;
+}
+.discount_block div button{
+    margin: 48px 0 0 72px;
+    width: Hug (154px)px;
+    height: Hug (40px)px;
+    padding: 6px 40px 6px 40px;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: #141718;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.optionblock{
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 1120px;
+}
+.option{
+    width: 262px;
+    height: 220px;
+    background-color: #F3F5F7;
+}
+.option img{
+    margin: 48px 0 0 32px;
+}
+.option h3{
+    margin: 16px 0 0 32px;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+.option p{
+    margin: 8px 0 0 32px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.sm_info{
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+.sm_info h5{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #6C7275;
+}
+.sm_info h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+}
+.sm_info p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+.sm_info h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #6C7275;
+}
+.list_of_photos{
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+.placeholder img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.placeholder{
+    position: relative;
+}
+.join{
+    position: absolute;
+    top: 101px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 540px;
+    text-align: center;
+}
+.join h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    margin: 0;
+}
+.join p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.registration{
+    position: absolute;
+    top: 215px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    width: 488px;
+    height: 52px;
+    border-style: solid;
+    border-top: #6C7275;
+    border-left: #6C7275;
+    border-right: #6C7275;
+    color: #6C7275;
+    font-weight: normal;
+}
+.registration img{
+    width: 24px;
+    height: 24px;
+    margin-top: 2px;
+    margin-right: 5px;
+    align-items: center;
+}
+.email{
+    margin: 0;
+    width: 396px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+}
+.signup{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+}
+.footer{
+    background-color:#141718;
+    color: #FEFEFE;
+}
+.footbar{
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    padding-top: 81px;
+    margin: 0 auto 0 auto;
+}
+.footbar div{
+    width: 544px;
+    display: flex;
+    justify-content: space-between;
+}
+.footbar div h1{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+.footbar div h3{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    width: 350px;
+}
+.footbar ul li a{
+    color: #FEFEFE;
+}
+.vertical-line {
+    display: inline-block;
+    width: 1px;        
+    height: 24px;     
+    background-color: black;
+    vertical-align: middle;
+}
+.useful_links{
+    width: 1120px;
+    margin: 49px auto 0 auto;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.useful_links .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 485px;
+}
+.useful_links .copyright p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.useful_links .copyright h5{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+.sm{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
