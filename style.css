@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-.head{
+header{
     display: flex;
     background-color: #000000;
     height: 40px;
@@ -23,14 +23,14 @@ body{
     display: flex;
     width: 372px;
     justify-content: space-between;
+    align-items: center;
     margin-left: auto;
     margin-right: auto; 
 }
-.hblock h1{
+.hblock h5{
     font-family: "Inter", sans-serif;
     color: white;
     font-size: 15px;
-    vertical-align: center;
     font-size: 14px;
     font-weight: 600;
     line-height: 22px;
@@ -45,6 +45,7 @@ body{
     border-right: white;
     border-left: white;
     border-top: white;
+    border-width: thin;
 }
 .arrow_btn img{
     width: 18px;
@@ -86,6 +87,14 @@ body{
     width: 100%;
     height: 60px;
 }
+.navbar h5{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;  
+    text-align: center;
+    margin: auto 0;
+}
 .main_picture h1{
     font-family: "Poppins", sans-serif; 
     font-weight: normal;
@@ -109,11 +118,10 @@ li a{
     color: black;
     text-decoration: none;
 }
-ul div img{
+li img{
     max-width: 9px;
     height: 5px;
-    padding-bottom: 2px;
-    padding-top: 2px;
+    padding: 2px 0 2px 2px;
 }
 .iconbar{
     margin: auto 0 auto 0;
@@ -163,9 +171,14 @@ ul div img{
     width: 1120px;
     margin: 48px auto 48px auto;
 }
-.new_products_title h1{
-    font-family: "Inter", sans-serif;
+.new_products_title h3{
+    font-family: "Poppins", sans-serif;
     margin: 0;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
 }
 .new_products_title .more {
     height: 16px;
@@ -257,13 +270,18 @@ ul div img{
     width: 1120px;
     margin: 0 auto;
 }
-.collection h1{
+.collection h3{
     font-family: "Inter", sans-serif;
     color: #141718;
     margin: 48px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
 }
-.collection div{
-    display: inline-block;
+.collection .container{
+    display: flex;
+    justify-content: space-between;
 }
 .headband{
     position: relative;
@@ -274,7 +292,13 @@ ul div img{
     left: 48px;
 }
 .collection_expression h2{
-    font-family: "Inter", sans-serif;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+    margin: 0;
 }
 .collection_expression h4{
     font-family: "Inter", sans-serif;
@@ -287,6 +311,7 @@ ul div img{
     border-left: white;
     border-top: white;
     position: absolute;
+    border-width: thin;
 }
 .collection_expression img{
     position: relative;
@@ -309,6 +334,13 @@ ul div img{
     position: absolute;
     top: 201px;
     left: 32px;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+    margin: 0;
 }
 .other_two div .arrow_button{
     position: absolute;
@@ -325,45 +357,79 @@ ul div img{
     border-left: white;
     border-top: white;
     position: absolute;
+    border-width: thin;
     width: 98px;
 }
 .arrow_button img{
     position: absolute;
     left: 80px;
 }
-.best_sellers h1{
-    font-family: "Inter", sans-serif;
+.best_sellers h3{
+    font-family: Poppins;
     color: #141718;
     width: 1120px;
     margin: 48px auto;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
 }
 .discount_block{
     display: flex;
     background-color: #ffce8b;
     font-family: "Inter", sans-serif;
 }
+.discount_block img{
+    width: 50%;
+}
 .promotion{
     margin: 101px 0 0 72px;
 }
-.promotion h3{
-    color: #377DFF;
-}
 .promotion h4{
+    color: #377DFF;
+    margin: 0;
+    text-transform: uppercase;
+}
+.promotion h3{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    margin: 16px 0;
+}
+.promotion p{
     font-weight: normal;
     line-height: 32px;
     font-size: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
 }
 .clock{
     display: flex;
     width: 288px;
 }
 .deadline{
-    margin: 24px 0 0 72px;
+    margin: 24px 0 0 0;
 }
 .discount_block div h5{
     margin: 24px 0 0 72px;
-    font-weight: normal;
+    font-family: Inter;
     font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.clock{
+    margin: 0 0 0 72px;
+    width: 288px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 .time{
     width: 60px;
@@ -388,14 +454,18 @@ ul div img{
 }
 .discount_block div button{
     margin: 48px 0 0 72px;
-    width: Hug (154px)px;
-    height: Hug (40px)px;
+    width: 154px;
+    height: 40px;
     padding: 6px 40px 6px 40px;
     gap: 8px;
     border-radius: 8px;
     background-color: #141718;
     color: white;
     font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
 }
 .optionblock{
     margin: 40px auto;
@@ -439,8 +509,9 @@ ul div img{
     line-height: 16px;
     text-align: center;
     color: #6C7275;
+    text-transform: uppercase;
 }
-.sm_info h1{
+.sm_info h3{
     font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 500;
@@ -486,7 +557,7 @@ ul div img{
     width: 540px;
     text-align: center;
 }
-.join h1{
+.join h3{
     font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 500;
@@ -517,6 +588,8 @@ ul div img{
     border-right: #6C7275;
     color: #6C7275;
     font-weight: normal;
+    border-width: thin;
+    margin: 32px 0 0 0;
 }
 .registration img{
     width: 24px;
@@ -544,7 +617,7 @@ ul div img{
     letter-spacing: -0.4000000059604645px;
     text-align: left;
 }
-.footer{
+footer{
     background-color:#141718;
     color: #FEFEFE;
 }
@@ -560,7 +633,7 @@ ul div img{
     display: flex;
     justify-content: space-between;
 }
-.footbar div h1{
+.footbar div h5{
     margin: 0;
     font-family: "Poppins", sans-serif;
     font-size: 24px;
@@ -568,7 +641,7 @@ ul div img{
     line-height: 24px;
     text-align: center;
 }
-.footbar div h3{
+.footbar div h6{
     margin: 0;
     font-family: "Inter", sans-serif;
     font-size: 14px;
@@ -584,7 +657,7 @@ ul div img{
     display: inline-block;
     width: 1px;        
     height: 24px;     
-    background-color: black;
+    background-color: white;
     vertical-align: middle;
 }
 .useful_links{
